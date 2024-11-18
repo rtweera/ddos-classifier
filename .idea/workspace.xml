@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="536719ee-069e-409d-86a3-7e1eca5b0621" name="Changes" comment="sampled_dataset added">
+    <list default="true" id="536719ee-069e-409d-86a3-7e1eca5b0621" name="Changes" comment="pipeline modifications &amp; pickle file created">
+      <change afterPath="$PROJECT_DIR$/notebooks/autoencoder.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipeline testing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline testing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +119,7 @@
       <workItem from="1731472467162" duration="1949000" />
       <workItem from="1731734871046" duration="8882000" />
       <workItem from="1731938622011" duration="519000" />
-      <workItem from="1731939177382" duration="14336000" />
+      <workItem from="1731939177382" duration="17766000" />
     </task>
     <task id="LOCAL-00001" summary="preprocessing pipeline initialized">
       <option name="closed" value="true" />
@@ -149,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731960680428</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pipeline modifications &amp; pickle file created">
+      <option name="closed" value="true" />
+      <created>1731961437085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731961437085</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,17 +185,7 @@
     <MESSAGE value="data insights added" />
     <MESSAGE value="preprocessing pipeline initials complete" />
     <MESSAGE value="sampled_dataset added" />
-    <option name="LAST_COMMIT_MESSAGE" value="sampled_dataset added" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="pipeline modifications &amp; pickle file created" />
+    <option name="LAST_COMMIT_MESSAGE" value="pipeline modifications &amp; pickle file created" />
   </component>
 </project>
