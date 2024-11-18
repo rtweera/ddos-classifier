@@ -71,6 +71,7 @@ class DataPreprocessingPipeline(BaseEstimator, TransformerMixin):
         if path is None:
             raise ValueError("Please provide a file path to save the pipeline.")
         joblib.dump(self.preprocessor, path)
+        print(f"Preprocessing pipeline saved to {path}")
 
     def load(self, path):
         """
@@ -84,4 +85,5 @@ class DataPreprocessingPipeline(BaseEstimator, TransformerMixin):
             raise ValueError("Please provide a file path to load the pipeline.")
 
         self.preprocessor = joblib.load(path)
+        print(f"Preprocessing pipeline loaded from {path}")
         return self
