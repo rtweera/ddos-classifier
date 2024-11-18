@@ -1,3 +1,6 @@
+# DEPRECATED: This file is deprecated. Please use the `training_pipeline.py` file instead.
+# WARNING: This file will be removed in a future release.
+
 import pandas as pd
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
