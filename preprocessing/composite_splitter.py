@@ -17,6 +17,12 @@ class CompositeSplitter(BaseEstimator, TransformerMixin):
         """
         return self
 
+    def partial_fit(self, X, y=None):
+        """
+        Partially fit the transformer by doing nothing.
+        """
+        return self
+
     def transform(self, X):
         """
         Split the input data's composite features into separate features.

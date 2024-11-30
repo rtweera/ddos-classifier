@@ -46,6 +46,16 @@ class DataPreprocessingPipeline(BaseEstimator, TransformerMixin):
         self.preprocessor.fit(X)
         return self
 
+    def partial_fit(self, X):
+        """
+        Partially fit the preprocessing pipeline on the input data.
+
+        Parameters:
+        X (pandas.DataFrame): Input data to be preprocessed.
+        """
+        self.preprocessor.partial_fit(X)
+        return
+
     def transform(self, X):
         """
         Transform the input data using the preprocessing pipeline.

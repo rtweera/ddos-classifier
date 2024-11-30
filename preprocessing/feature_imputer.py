@@ -39,6 +39,13 @@ class FeatureImputer(BaseEstimator, TransformerMixin):
 
         return self
 
+    def partial_fit(self, X, y=None):
+        """
+        Partially fits the transformer by updating the imputers.
+        """
+        self.fit(X)
+        return self
+
     def transform(self, X):
         """
         Applies the imputations to the respective fields.

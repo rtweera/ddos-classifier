@@ -27,3 +27,9 @@ class FeatureDropper(BaseEstimator, TransformerMixin):
         """
         df = X.copy()
         return df.drop(columns=self.features_to_drop)
+
+    def partial_fit(self, X, y=None):
+        """
+        Partially fit the transformer by doing nothing.
+        """
+        return self

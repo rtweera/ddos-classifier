@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="536719ee-069e-409d-86a3-7e1eca5b0621" name="Changes" comment="dbscan added">
-      <change afterPath="$PROJECT_DIR$/notebooks/logistic_regression.ipynb" afterDir="false" />
+    <list default="true" id="536719ee-069e-409d-86a3-7e1eca5b0621" name="Changes" comment="saved logistic regression model">
+      <change afterPath="$PROJECT_DIR$/notebooks/full_dataset_analyzer.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/dbscan.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/dbscan.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/autoencoder.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/autoencoder.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/logistic_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/logistic_regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline usage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline usage.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/composite_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/composite_splitter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/feature_dropper.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/feature_dropper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/feature_imputer.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/feature_imputer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/numerical_standardiser.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/numerical_standardiser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/training_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/training_pipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +129,11 @@
       <workItem from="1731939177382" duration="17892000" />
       <workItem from="1732083148202" duration="13003000" />
       <workItem from="1732214715254" duration="699000" />
-      <workItem from="1732521153180" duration="9775000" />
+      <workItem from="1732521153180" duration="10407000" />
+      <workItem from="1732642101363" duration="4106000" />
+      <workItem from="1732968123759" duration="2780000" />
+      <workItem from="1732971127004" duration="3564000" />
+      <workItem from="1732976079790" duration="10477000" />
     </task>
     <task id="LOCAL-00001" summary="preprocessing pipeline initialized">
       <option name="closed" value="true" />
@@ -196,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732548114766</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added logistic regression model">
+      <option name="closed" value="true" />
+      <created>1732549666273</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732549666273</updated>
+    </task>
+    <task id="LOCAL-00011" summary="saved logistic regression model">
+      <option name="closed" value="true" />
+      <created>1732549692784</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732549692784</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +252,8 @@
     <MESSAGE value="autoencoder initial training done. Accuracy is not good" />
     <MESSAGE value="autoencoder model saved" />
     <MESSAGE value="dbscan added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dbscan added" />
+    <MESSAGE value="added logistic regression model" />
+    <MESSAGE value="saved logistic regression model" />
+    <option name="LAST_COMMIT_MESSAGE" value="saved logistic regression model" />
   </component>
 </project>
