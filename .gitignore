@@ -1,3 +1,5 @@
 data/final_dataset.csv
 .venv/
 data/*
+sample data/*
+.idea/*

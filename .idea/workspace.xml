@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="536719ee-069e-409d-86a3-7e1eca5b0621" name="Changes" comment="saved logistic regression model">
-      <change afterPath="$PROJECT_DIR$/notebooks/full_dataset_analyzer.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/autoencoder.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/autoencoder.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/logistic_regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/logistic_regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipeline usage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline usage.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/composite_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/composite_splitter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/feature_dropper.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/feature_dropper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/feature_imputer.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/feature_imputer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/numerical_standardiser.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/numerical_standardiser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/training_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/training_pipeline.py" afterDir="false" />
-    </list>
+    <list default="true" id="536719ee-069e-409d-86a3-7e1eca5b0621" name="Changes" comment="file removed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +65,7 @@
       <recent name="E:\SLIIT-research\Project\notebooks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SLIIT-research\Project\sample data" />
       <recent name="E:\SLIIT-research\Project" />
       <recent name="E:\SLIIT-research\Project\notebooks" />
       <recent name="E:\SLIIT-research\Project\data_findings" />
@@ -133,7 +123,8 @@
       <workItem from="1732642101363" duration="4106000" />
       <workItem from="1732968123759" duration="2780000" />
       <workItem from="1732971127004" duration="3564000" />
-      <workItem from="1732976079790" duration="10477000" />
+      <workItem from="1732976079790" duration="11275000" />
+      <workItem from="1733148869791" duration="12098000" />
     </task>
     <task id="LOCAL-00001" summary="preprocessing pipeline initialized">
       <option name="closed" value="true" />
@@ -223,7 +214,63 @@
       <option name="project" value="LOCAL" />
       <updated>1732549692784</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="full dataset scaling">
+      <option name="closed" value="true" />
+      <created>1733000953002</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733000953002</updated>
+    </task>
+    <task id="LOCAL-00013" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1733158128858</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733158128858</updated>
+    </task>
+    <task id="LOCAL-00014" summary="log reg added">
+      <option name="closed" value="true" />
+      <created>1733159829272</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733159829272</updated>
+    </task>
+    <task id="LOCAL-00015" summary="autoencoder added">
+      <option name="closed" value="true" />
+      <created>1733165132896</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733165132896</updated>
+    </task>
+    <task id="LOCAL-00016" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1733165687752</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733165687752</updated>
+    </task>
+    <task id="LOCAL-00017" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1733165709509</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733165709509</updated>
+    </task>
+    <task id="LOCAL-00018" summary="file removed">
+      <option name="closed" value="true" />
+      <created>1733165781704</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733165781704</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +301,12 @@
     <MESSAGE value="dbscan added" />
     <MESSAGE value="added logistic regression model" />
     <MESSAGE value="saved logistic regression model" />
-    <option name="LAST_COMMIT_MESSAGE" value="saved logistic regression model" />
+    <MESSAGE value="full dataset scaling" />
+    <MESSAGE value="log reg added" />
+    <MESSAGE value="autoencoder added" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="file moved" />
+    <MESSAGE value="file removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="file removed" />
   </component>
 </project>
